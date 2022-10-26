@@ -84,7 +84,10 @@ hr {
 }
 
 .portfolio {
-    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 650px;
     position: relative;
     top: 60px;
 }
@@ -95,4 +98,55 @@ hr {
 
 .bk-dark-blue {
     background-color: rgb(44, 62, 80);
+}
+
+.border-radius {
+    border-radius: 15px;
+}
+
+.bk-purple {
+    background-color: rgb(186, 75, 99);
+}
+
+.bk-azure {
+    background-color: rgb(30,164,182);
+}
+
+.bk-black {
+    background-color: black;
+}
+
+.bk-azzurro {
+    background-color: rgb(28,131,193);
+}
+
+.bk-blue {
+    background-color: rgb(14, 56, 181);
+}
+
+.bk-lightbrown {
+    background-color: rgb(204, 178, 163);
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+.height-250 {
+    height: 220px;
+}
+
+.border-10 {
+    padding: 10px;
+}
+
+.margin {
+    margin: 12px 0 24px 0;
+}
+
+.col-3 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }

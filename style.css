@@ -1,7 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
     position: fixed;
     display: flex;
     align-items: center;
+    z-index: 1;
     width: 100%;
     min-height: 60px;
     background-color: rgb(44, 62, 80);
@@ -13,21 +20,79 @@ header {
 }
 
 .justify-center {
+    display: flex;
     justify-content: center;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 .width-70 {
     min-width: 90%;
 }
 
-.char-big-white {
+.char-big {
     font-size: 16px;
     font-weight: bold;
+}
+
+.char-small {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.font-500 {
+    font-weight: 500;
+}
+
+.white {
     color: white;
 }
 
-.char-small-white {
-    font-size: 10px;
-    color: white;
-    font-weight: 600;
+.black {
+    color: black;
+}
+
+.dark-gray {
+    color: rgb(51, 51, 51);
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    min-height: 380px;
+    background-color: rgb(26, 188, 156);
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+.fa-star {
+    padding: 0 10px;
+}
+
+hr {
+    width: 120px;
+    background-color: white;
+    height: 2px;
+    border: none;
+}
+
+.portfolio {
+    min-height: 500px;
+    position: relative;
+    top: 60px;
+}
+
+.dark-blue {
+    color: rgb(44, 62, 80);
+}
+
+.bk-dark-blue {
+    background-color: rgb(44, 62, 80);
 }

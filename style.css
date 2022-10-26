@@ -1,0 +1,33 @@
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 60px;
+    background-color: rgb(44, 62, 80);
+}
+
+.align-center {
+    display: flex;
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.width-70 {
+    min-width: 90%;
+}
+
+.char-big-white {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.char-small-white {
+    font-size: 10px;
+    color: white;
+    font-weight: 600;
+}
